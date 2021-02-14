@@ -43,6 +43,7 @@ export default {
             flex-grow: 1;
             flex-basis: 0;
             a {
+                color: #000;
                 display: block;
                 padding: 0 30px;
                 text-decoration: none;

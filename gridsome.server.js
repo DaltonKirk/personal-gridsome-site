@@ -30,7 +30,9 @@ module.exports = function (api) {
             slug,
             title,
             description,
-            content
+            content,
+            github,
+            url
           }
         }
       }
