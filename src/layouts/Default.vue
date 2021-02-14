@@ -2,10 +2,9 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/">Home</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/projects/">Projects</g-link>
       </nav>
     </header>
@@ -54,5 +53,9 @@ body {
   padding: 10px;
   background: grey;
   color: white;
+}
+
+a {
+  color: #000;
 }
 </style>
