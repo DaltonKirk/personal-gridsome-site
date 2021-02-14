@@ -13,5 +13,13 @@
             "description":"A Vue.js app used for comparing ammo types in the video game, Escape from Tarkov",
             "github": "https://github.com/DaltonKirk/tarkov-bullets",
             "url": "https://tarkovammo.com"
+        },
+        {
+            "slug": "pathfinder",
+            "title":"Unity Pathfinder",
+            "description":"A Unity web GL build to showcase path finding.",
+            "content": "<iframe style=\"width:100%;height:450px\" src=\"/pathfinder/index.html\"></iframe>",
+            "github": "",
+            "url": ""
         }
     ]
