@@ -15,5 +15,9 @@ export default {
 <style>
   p + h2 {
     margin-bottom: -20px;
-  } 
+  }
+
+  iframe {
+    border: none;
+  }
 </style>
