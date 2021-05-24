@@ -5,7 +5,6 @@
         <g-link to="/">Home</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/projects/">Projects</g-link>
       </nav>
     </header>
     <slot/>

@@ -31,29 +31,26 @@ export default {
 
 <style lang="scss">
     .project-list {
-        display: flex;
         flex-wrap: wrap;
         list-style-type: none;
         margin: 0;
         padding: 0;
 
         li {
-            border: 1px solid black;
+            box-shadow: 0 0 6px 3px rgba(0, 0, 0, .15);
             border-radius: 5px;
-            margin-right: 20px;
             margin-bottom: 1rem;
-            flex-grow: 1;
-            flex-basis: 0;
-            @media (max-width: 640px) {
-                flex-basis: 100%;
+
+            h3 {
+                margin: 0 0 20px 0;
             }
 
             a {
-                color: #000;
+                padding: 20px;
                 display: block;
-                padding: 0 30px;
-                text-decoration: none;
+                color: #000;
                 height: 100%;
+                text-decoration: none;
                 &:active {
                     color: grey;
                 }

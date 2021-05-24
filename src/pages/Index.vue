@@ -1,17 +1,18 @@
 <template>
   <Layout>
-
-    <h1>Welcome</h1>
-
-    <p>Welcome to my site! My name is Dalton Kirk and I am a full-stack web developer in my day job and work on all kinds of side projects in my spare time.</p>
-    <p>The purpose of this site is to be a central place for me to share the <a href="/projects">projects</a> that I work on.</p>
+    <project-list />
   </Layout>
 </template>
 
 <script>
+import ProjectList from '~/components/ProjectList.vue'
+
 export default {
+    components: {
+    ProjectList
+  },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>

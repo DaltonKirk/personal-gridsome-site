@@ -11,6 +11,7 @@
             "slug": "tarkov-ammo",
             "title":"Tarkov Ammo",
             "description":"A Vue.js app used for comparing ammo types in the video game, Escape from Tarkov",
+            "content": "<p><a href=\"https://tarkovammo.com\">tarkovammo.com</a> is a Vue.js app that I made to help people easily compare ammunition types from the game Escape from Tarkov.</p>",
             "github": "https://github.com/DaltonKirk/tarkov-bullets",
             "url": "https://tarkovammo.com"
         },
