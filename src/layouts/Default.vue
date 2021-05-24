@@ -4,10 +4,9 @@
       <strong>
         <g-link to="/">Home</g-link>
       </strong>
-      <nav class="nav">
-      </nav>
+      <nav class="nav"></nav>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -21,9 +20,10 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
   font-size: 1.2rem;
 }
@@ -48,10 +48,13 @@ body {
 }
 
 .code-snippet {
+  color: white;
+  background: grey;
+  border-radius: 5px;
   display: block;
   padding: 10px;
-  background: grey;
-  color: white;
+  margin: 10px 0;
+  overflow-x: auto;
 }
 
 a {
