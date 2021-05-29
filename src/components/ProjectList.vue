@@ -16,7 +16,7 @@
       </a>
     </li>
   </ul> </template
->@
+>
 
 <static-query>
   query {
@@ -50,6 +50,10 @@ export default {
     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin-bottom: 1rem;
+
+    &:hover {
+      box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.15);
+    }
 
     h3 {
       margin: 0 0 20px 0;

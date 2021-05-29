@@ -5,10 +5,23 @@
         <g-link to="/">Home</g-link>
       </strong>
       <nav class="nav"></nav>
+      <Socials />
     </header>
     <slot />
   </div>
 </template>
+
+<script>
+import Socials from '~/components/Socials.vue'
+
+export default {
+  components: {
+    Socials
+  }
+}
+
+</script>
+
 
 <static-query>
 query {
@@ -20,12 +33,14 @@ query {
 
 <style>
 body {
+  background: linear-gradient(0deg, #001fff, #ff8c00);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
   font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
 }
 
 .layout {
