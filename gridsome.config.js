@@ -6,5 +6,14 @@
 
 module.exports = {
   siteName: 'Dalton Kirk',
-  plugins: []
-}
+  plugins: [
+    {
+      use: 'gridsome-plugin-gtag',
+      options: {
+        config: {
+          id: 'UA-140937339-1',
+        }
+      }
+    }
+  ],
+};
