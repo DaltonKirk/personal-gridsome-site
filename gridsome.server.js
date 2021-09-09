@@ -21,30 +21,4 @@ module.exports = function (api) {
       collection.addNode(project);
     }
   })
-
-  api.createPages(async ({ graphql, createPage }) => {
-    const { data } = await graphql(`{
-      allProjects {
-        edges {
-          node {
-            slug,
-            title,
-            description,
-            content,
-            github,
-            url
-          }
-        }
-      }
-    }`)
-    data.allProjects.edges.forEach(({ node }) => {
-      createPage({
-        path: `/projects/${node.slug}`,
-        component: './src/templates/Project.vue',
-        context: {
-          project: node
-        }
-      })
-    })
-  })
 }

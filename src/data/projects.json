@@ -4,14 +4,12 @@
             "slug": "discord-bot",
             "title": "Discord Bot",
             "description": "A discord bot for my friends and I.",
-            "content": "<p>In my spare time, I like to play games with my friends online and we use Discord to speak to each other. So I wanted to see if I could make a Discord bot for just our own enjoyment and this is how I developed and deployed it.</p><h2>Register your Bot</h2><p>Firstly, you need to create your bot on the <a href='https://discord.com/developers/applications' target='_blank' rel='noopener'>Discord site<a/>. Once you have created your Discord 'Application' you should be able to see your public key, client ID and client secret. We will need these later.</p><h2>Discord.Net</h2><p>This is what I used to develop my Discord bot using C#. You can find the github for this nuget package <a href='https://github.com/discord-net/Discord.Net' target='_blank' rel='noopener'>here</a>. You will then need to create a new dotnet core console app and install the Discord.Net nuget package. I then followed this <a href='https://discord.foxbot.me/docs/guides/introduction/intro.html' target='_blank' rel='noopener'>guide</a> to get a simple bot running locally on my own PC.</p><h2>Deploying your Bot</h2><p>There are a lot of options out there for this but I'd like to share the provider I used for this, DigitalOcean. You can pay $5 a month for their cheapest tier Linux VPS running Ubuntu. Then you need to build your Discord bot for the Linux environment. I was using Ubuntu-20.10 and dotnet core 3.1 so you may have to swap these values depending on what you are using. Run this command to in your projects directory <span class='code-snippet'>dotnet publish -c release -r ubuntu.16.04-x64</span> Now we have built our Discord bot for Linux all we have to do now is copy it over to our server and run it. To copy the built files run the following command, make sure to input your own user and ip for your Linux server <span class='code-snippet'>scp -r YourProjectDirectory/src/bin/release/netcoreapp3.1/ubuntu.20.10-x64/publish user@IPAddress:/YourBotName</span> This will copy all the files to the root directory of your server and place them in a new directory with the name of your bot. Next we need to add the permissions to run the app <span class='code-snippet'>chmod 777 ./appname</span>Then run the app as a background process so that it does not stop once you leave the terminal <span class='code-snippet'>nohup ./appname &</span></p>",
             "github": "https://github.com/DaltonKirk/RotnBot"
         },
         {
             "slug": "tarkov-ammo",
             "title":"Tarkov Ammo",
             "description":"A Vue.js app used for comparing ammo types in the video game, Escape from Tarkov",
-            "content": "<p><a href=\"https://tarkovammo.com\">tarkovammo.com</a> is a Vue.js app that I made to help people easily compare ammunition types from the game Escape from Tarkov.</p>",
             "github": "https://github.com/DaltonKirk/tarkov-bullets",
             "url": "https://tarkovammo.com"
         },
@@ -19,7 +17,6 @@
             "slug": "pathfinder",
             "title":"Unity Pathfinder",
             "description":"A Unity web GL build to showcase my path finding implementation.",
-            "content": "<p>This is a demonstration of my pathfinding algorithm. Right-click to place red walls, Left-click to set path origin.</p><p>This Unity WebGL build works better on desktop browsers and can take a while to load.</p><iframe style=\"width:100%;height:487px\" src=\"/pathfinder/index.html\"></iframe>",
             "github": "",
             "url": ""
         }
