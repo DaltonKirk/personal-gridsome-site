@@ -1,6 +1,12 @@
 
     [
         {
+            "slug": "pixel-art-animator",
+            "title": "Pixel Art Animator",
+            "description": "A browser based pixel art animation tool.",
+            "url": "https://animate.daltonkirk.com"
+        },
+        {
             "slug": "discord-bot",
             "title": "Discord Bot",
             "description": "A discord bot for my friends and I.",
