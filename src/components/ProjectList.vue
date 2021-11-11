@@ -15,18 +15,18 @@
         </a>
       </a>
     </li>
-  </ul> </template
->
+  </ul> </template>
 
 <static-query>
   query {
-   projects: allProjects {
+   projects: allProjects(sortBy: "order", order: ASC) {
      edges {
        node {
          slug,
          title,
          description,
-         github
+         github,
+         order
        }
      }
    }
@@ -47,12 +47,13 @@ export default {
   padding: 0;
 
   li {
+    background: rgba(0, 0, 0, 0.38);
     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin-bottom: 1rem;
 
     &:hover {
-      box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.20);
     }
 
     h3 {
@@ -64,7 +65,7 @@ export default {
 .project-list__link {
   padding: 20px;
   display: block;
-  color: #000;
+  color: #fff;
   height: 100%;
   text-decoration: none;
 

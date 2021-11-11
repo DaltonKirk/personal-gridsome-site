@@ -1,10 +1,19 @@
 <template>
   <Layout>
     <h1>Pixel Art Animator</h1>
-    <div>
+    <article>
+        <h2>What is it?</h2>
+        <p>
+          It's a pixel art animation tool! It's a fully client side web application built with pure Javascript, no frameworks.
+          You can draw multiple frames and export them as a single sprite sheet and you can also import these files to continue working on your animation.
+        </p>
+        <h2>Why I built it</h2>
+        <p>
+          I built it for creating 2D animations in the Unity game engine. I found that my current tools were not giving me every thing I needed.
+          I wanted to be able to see a preview of my animation and see the effect that my edits made in real time.
+        </p>
         <a href="https://animate.daltonkirk.com" target="_blank" rel="noopener">Try it out.</a>
-      <p></p>
-    </div>
+    </article>
   </Layout>
 </template>
 
@@ -17,10 +26,6 @@ export default {
 </script>
 
 <style>
-  p + h2 {
-    margin-bottom: -20px;
-  }
-
   iframe {
     border: none;
   }

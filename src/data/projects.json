@@ -4,26 +4,30 @@
             "slug": "pixel-art-animator",
             "title": "Pixel Art Animator",
             "description": "A browser based pixel art animation tool.",
-            "url": "https://animate.daltonkirk.com"
+            "url": "https://animate.daltonkirk.com",
+            "order": 0
         },
         {
             "slug": "discord-bot",
             "title": "Discord Bot",
             "description": "A discord bot for my friends and I.",
-            "github": "https://github.com/DaltonKirk/RotnBot"
+            "github": "https://github.com/DaltonKirk/RotnBot",
+            "order": 2
         },
         {
             "slug": "tarkov-ammo",
             "title":"Tarkov Ammo",
             "description":"A Vue.js app used for comparing ammo types in the video game, Escape from Tarkov",
             "github": "https://github.com/DaltonKirk/tarkov-bullets",
-            "url": "https://tarkovammo.com"
+            "url": "https://tarkovammo.com",
+            "order": 1
         },
         {
             "slug": "pathfinder",
             "title":"Unity Pathfinder",
             "description":"A Unity web GL build to showcase my path finding implementation.",
             "github": "",
-            "url": ""
+            "url": "",
+            "order": 3
         }
     ]

@@ -75,4 +75,25 @@ body {
 a {
   color: #000;
 }
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+article {
+  color: white;
+  background: rgba(0, 0, 0, 0.38);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+article a {
+  color: white;
+}
+
 </style>
