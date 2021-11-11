@@ -20,7 +20,13 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Project'
+    title: 'Project',
+    meta: [
+      {
+        name: 'description',
+        content: 'A browser based pixel art animation tool.'
+      }
+    ]
   }
 }
 </script>
