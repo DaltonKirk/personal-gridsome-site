@@ -12,12 +12,14 @@
           I built it for creating 2D animations in the Unity game engine. I found that my current tools were not giving me every thing I needed.
           I wanted to be able to see a preview of my animation and see the effect that my edits made in real time.
         </p>
-        <a href="https://animate.daltonkirk.com" target="_blank" rel="noopener">Try it out.</a>
+        <ButtonLink href="https://animate.daltonkirk.com" target="_blank">Try it out</ButtonLink>
     </article>
   </Layout>
 </template>
 
 <script>
+import ButtonLink from '~/components/ButtonLink.vue'
+
 export default {
   metaInfo: {
     title: 'Project',
@@ -27,6 +29,9 @@ export default {
         content: 'A browser based pixel art animation tool.'
       }
     ]
+  },
+  components: {
+    ButtonLink
   }
 }
 </script>
