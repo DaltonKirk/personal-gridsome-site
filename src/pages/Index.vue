@@ -12,7 +12,8 @@ export default {
     ProjectList
   },
   metaInfo: {
-    title: 'Home'
+    title: 'Home | Dalton Kirk',
+    metaInfo: 'Dalton Kirk. Hobbyist game developer and full-time full-stack web developer. This is my personal site for sharing my projects and having a place to write about them.'
   }
 }
 </script>
