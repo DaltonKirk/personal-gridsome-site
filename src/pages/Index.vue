@@ -5,17 +5,23 @@
 </template>
 
 <script>
-import ProjectList from '~/components/ProjectList.vue'
+import ProjectList from "~/components/ProjectList.vue";
 
 export default {
-    components: {
-    ProjectList
+  components: {
+    ProjectList,
   },
   metaInfo: {
-    title: 'Home | Dalton Kirk',
-    metaInfo: 'Dalton Kirk. Hobbyist game developer and full-time full-stack web developer. This is my personal site for sharing my projects and having a place to write about them.'
-  }
-}
+    title: "Home | Dalton Kirk",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Dalton Kirk. Hobbyist game developer and full-time full-stack web developer. This is my personal site for sharing my projects and having a place to write about them.",
+      },
+    ],
+  },
+};
 </script>
 
 <style>
