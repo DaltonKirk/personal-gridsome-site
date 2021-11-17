@@ -22,7 +22,7 @@ import ButtonLink from '~/components/ButtonLink.vue'
 
 export default {
   metaInfo: {
-    title: 'Project',
+    title: 'Pixel Art Animator',
     meta: [
       {
         name: 'description',

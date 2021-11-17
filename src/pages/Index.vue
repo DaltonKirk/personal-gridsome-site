@@ -12,7 +12,7 @@ export default {
     ProjectList,
   },
   metaInfo: {
-    title: "Home | Dalton Kirk",
+    title: "Home",
     meta: [
       {
         name: "description",

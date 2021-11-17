@@ -78,7 +78,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Project",
+    title: "Discord bot",
   },
 };
 </script>

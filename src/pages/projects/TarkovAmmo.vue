@@ -14,7 +14,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Project",
+    title: "Tarkov Ammo",
   },
 };
 </script>
