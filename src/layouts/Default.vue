@@ -2,7 +2,9 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">Home</g-link>
+        <g-link v-if="this.$route.path !== '/'" to="/">
+          <arrow class="back-arrow"></arrow>
+        </g-link>
       </strong>
       <nav class="nav"></nav>
       <Socials />
@@ -13,10 +15,12 @@
 
 <script>
 import Socials from '~/components/Socials.vue'
+import Arrow from '~/components/icons/Arrow.vue'
 
 export default {
   components: {
-    Socials
+    Socials,
+    Arrow
   }
 }
 
@@ -31,7 +35,7 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="scss">
 body {
   background: linear-gradient(0deg, #001fff, #ff8c00);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -70,6 +74,14 @@ body {
   padding: 10px;
   margin: 10px 0;
   overflow-x: auto;
+}
+
+.back-arrow {
+  transition: all .25s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 a {
