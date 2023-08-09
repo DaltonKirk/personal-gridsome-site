@@ -108,4 +108,8 @@ article a {
   color: white;
 }
 
+.content-para {
+  font-weight: 500;
+}
+
 </style>
