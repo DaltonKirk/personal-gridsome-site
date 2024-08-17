@@ -4,13 +4,13 @@
             "slug": "pixel-art-animator",
             "title": "Pixel Art Animator",
             "description": "A browser based pixel art animation tool.",
-            "url": "https://animate.daltonkirk.com",
+            "url": "https://animate.daltonk.com",
             "order": 0
         },
         {
             "slug": "discord-bot",
             "title": "Discord Bot",
-            "description": "A discord bot for my friends and I.",
+            "description": "A discord bot for my friends and I, developed with C#.",
             "github": "https://github.com/DaltonKirk/RotnBot",
             "order": 2
         },
@@ -19,7 +19,7 @@
             "title":"Tarkov Ammo",
             "description":"A Vue.js app used for comparing ammo types in the video game, Escape from Tarkov",
             "github": "https://github.com/DaltonKirk/tarkov-bullets",
-            "url": "https://tarkovammo.com",
+            "url": "https://wizardly-hermann-c44975.netlify.app/",
             "order": 1
         },
         {

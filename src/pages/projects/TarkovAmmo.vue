@@ -4,7 +4,7 @@
     <article>
       <h2>About Tarkov Ammo</h2>
       <p>
-        <a href="https://tarkovammo.com">tarkovammo.com</a>
+        <a href="https://wizardly-hermann-c44975.netlify.app/">https://wizardly-hermann-c44975.netlify.app/</a>
         is a Vue.js app that I made to help people easily compare ammunition
         types from the game Escape from Tarkov.
       </p>
@@ -26,7 +26,7 @@
       <p>
         This uses the browser's local storage, so if you have to use the same browser each time if you wish to keep task data.
       </p>
-      <ButtonLink href="https://tarkovammo.com" target="_blank">Try it out</ButtonLink>
+      <ButtonLink href="https://wizardly-hermann-c44975.netlify.app/" target="_blank">Try it out</ButtonLink>
     </article>
   </Layout>
 </template>
